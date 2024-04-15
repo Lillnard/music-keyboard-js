@@ -3,7 +3,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #e3f2fd;
+    background-color: #111217;
     color: #fff;
 }
 
@@ -12,6 +12,7 @@ body{
     border-radius: 20px;
     padding: 35px 40px;
     background-color: black;
+    box-shadow: 0 0 5px white;
 }
 
 .container header {
@@ -24,6 +25,10 @@ body{
 
 header h2{
     font-size: 1.6rem;
+}
+
+header h2:hover{
+    color: #eee;
 }
 
 header .column{
@@ -39,6 +44,7 @@ header .column span{
 
 .volume-slider input{
     accent-color: #fff;
+    cursor: pointer;
 }
 
 .keys-check input{
